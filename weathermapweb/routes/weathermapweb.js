@@ -13,7 +13,7 @@ router.get('/', function (req, res, next) {
         host: proxy_host,
         port: proxy_port,
         method: 'GET',
-        path: 'http://' + service_addr + '/fusionweather/show?city=' + req.query.city,
+        path: 'http://' + 10.0.0.204:30100 + '/fusionweather/show?city=' + req.query.city,
         headers: {}
     };
     if (req.query.user) {

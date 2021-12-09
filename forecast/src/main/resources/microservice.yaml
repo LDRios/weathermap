@@ -6,7 +6,7 @@ servicecomb:
     properties:
       allowCrossApp: false
     registry:
-      address: https://10.0.0.204:30100
+      address: https://10.0.0.136:30100,https://10.0.0.3:30100
       instance:
         watch: false
   config:
